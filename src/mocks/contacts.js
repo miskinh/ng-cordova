@@ -8,7 +8,36 @@
  **/
 ngCordovaMocks.factory('$cordovaContacts', ['$q', function ($q) {
   var throwsError = false;
-  var contacts = [];
+  var contacts = [
+    {
+      "displayName": "Dave",
+      "name": {
+        "givenName"  : "Dave",
+        "familyName" : "Smith",
+        "formatted"  : "Dave Smith"
+      },
+      "phoneNumbers": [
+      {
+        "value": "07963614949",
+        "type": "mobile"
+      }            
+      ]
+    },
+    {
+      "displayName": "Bob",
+      "name": {
+        "givenName"  : "Bob",
+        "familyName" : "Jones",
+        "formatted"  : "Bob Jones"
+      },
+      "phoneNumbers": [
+      {
+        "value": "07528569671",
+        "type": "mobile"
+      }            
+      ]
+    }
+  ];
 
   return {
     /**
