@@ -5710,6 +5710,7 @@ angular.module('ngCordova.plugins', [
   'ngCordova.plugins.capture',
   'ngCordova.plugins.clipboard',
   'ngCordova.plugins.contacts',
+  'ngCordova.plugins.contactsPhoneNumbers',
   'ngCordova.plugins.datePicker',
   'ngCordova.plugins.device',
   'ngCordova.plugins.deviceMotion',
